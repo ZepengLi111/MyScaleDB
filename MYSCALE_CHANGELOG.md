@@ -1,10 +1,5 @@
 # MyScale Release Notes
 ## 2025
-### [v2.0.0] - 2025-04-02
-
-- Upgrade ClickHouse to v24.8.8.1-lts
-
-## 2025
 
 ### [v2.1.0](http://gitlab.originhub.tech/database/clickhouse/-/tags/myscale-v2.1.0) - 2025-07-02
 
@@ -37,6 +32,10 @@ Fixs
  [!18](http://gitlab.originhub.tech/database/clickhouse/-/merge_requests/18) ([Pang shanfeng](http://gitlab.originhub.tech/shanfengp)).
 - Fix the sparse index reader release
  [!21](http://gitlab.originhub.tech/database/clickhouse/-/merge_requests/21) ([Libao Yang](http://gitlab.originhub.tech/LibaoYang)).
+
+### [v2.0.0] - 2025-04-02
+
+- Upgrade ClickHouse to v24.8.8.1-lts
 
 ## 2024
 

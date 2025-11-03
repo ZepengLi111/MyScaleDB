@@ -68,13 +68,6 @@ BaseSegment::Metadata BaseSegment::generateVIMetadata(const IMergeTreeDataPart &
     }
     meta.index_metric = Search::getMetricType(index_metric_str, vec_desc.vector_search_type);
 
-    /// init disk mode, when not set, use default disk mode in merge tree settings
-    if (meta.index_type == VIType::SCANN)
-    {
-        if (!meta.build_params.contains("disk_mode"))
-            meta.build_params.setParam("disk_mode", merge_tree_setting->default_scann_disk_mode);
-    }
-
     /// set version
     meta.index_version = "1.0.0";
     return meta;
